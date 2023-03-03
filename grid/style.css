@@ -1,0 +1,48 @@
+.container {
+    box-shadow: 0 0 5px #00000080;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 100px;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    padding: 10px;
+}
+
+th.sortable {
+    position: relative;
+    /* cursor: pointer; */
+}
+
+table td {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+table thead {
+    background-color: beige;
+}
+
+.pageContainer {
+    background-color: ivory;
+    padding: 10px;
+    text-align: center;
+}
